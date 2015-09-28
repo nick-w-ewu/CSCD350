@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
-public class Minesseeper
+public class Minesweeper
 {
 
 	public static void main(String[] args)
@@ -16,10 +16,10 @@ public class Minesseeper
 		
 		rows = input.nextInt();
 		cols = input.nextInt();
-		input.nextLine();
 		
 		while(rows != 0 && cols != 0)
 		{
+			input.nextLine();
 			inputFeild = new int[rows][cols];
 			
 			for(int r = 0; r < rows; r++)
