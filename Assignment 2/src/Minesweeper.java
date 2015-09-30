@@ -61,7 +61,7 @@ public class Minesweeper
 			cols = input.nextInt();
 		}//end while
 		printFields(minefields);
-	}
+	}//end main
 	
 	/*
 	 * Loops through all the minefields in the passed in ArrayList, solves them, and
@@ -81,8 +81,7 @@ public class Minesweeper
 			i.solveFeild();
 			System.out.println(i);
 			fieldNum++;
-			System.out.println();
 		}//end for
-	}
+	}//end printFields
 
-}
+}//end Minesweeper

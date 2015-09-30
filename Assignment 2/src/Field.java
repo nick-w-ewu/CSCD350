@@ -27,7 +27,7 @@ public class Field
 		this.rows = r;
 		this.columns = c;
 		this.field = field;
-	}
+	}//end field
 	
 	/*
 	 * This method is called by with a Field object, it traverses the field visiting each element
@@ -79,7 +79,7 @@ public class Field
 				}//end if
 			}//end for
 		}//end for
-	}
+	}//end solveField
 	
 	/*
 	 * Checks to see if the passed in Field element is actually in the field dimensions
@@ -104,7 +104,7 @@ public class Field
 			return true;
 		}//end if
 		return false;
-	}
+	}//end isMine
 	
 	/*
 	 * Creates a string representation of a minefield, with a mine represented by an *
@@ -134,5 +134,5 @@ public class Field
 			toReturn += "\n";
 		}//end for
 		return toReturn;
-	}
-}
+	}//end toString
+}//end Field
