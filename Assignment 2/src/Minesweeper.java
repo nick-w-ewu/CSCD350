@@ -2,7 +2,7 @@
  * Field.java
  * Author: Nicholas Witmer
  *Revision: 1, Nicholas Witmer
- *Date 09/27/2015
+ *Date: 09/27/2015
  *Accepts minefields input by the user from the console with the number of rows and number
  *of columns specified first followed by the minefield itself. Input fields are accepted parsed
  *into 2d arrays with a -1 specifying the location of a mine and all other field positions
@@ -77,7 +77,7 @@ public class Minesweeper
 		int fieldNum = 1;
 		for(Field i : minefields)
 		{
-			System.out.println("Field #" + fieldNum);
+			System.out.println("Field #" + fieldNum + ":");
 			i.solveFeild();
 			System.out.println(i);
 			fieldNum++;

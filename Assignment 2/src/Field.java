@@ -2,7 +2,7 @@
  * Field.java
  * Author: Nicholas Witmer
  *Revision: 1, Nicholas Witmer
- *Date 09/27/2015
+ *Date: 09/27/2015
  *Used to store an array of integers representing a minefield and also offers functionality
  *to solve the minefield and return a string representation of the minefield
  *
@@ -135,4 +135,5 @@ public class Field
 		}//end for
 		return toReturn;
 	}//end toString
+	
 }//end Field
