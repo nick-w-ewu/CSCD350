@@ -1,3 +1,14 @@
+/**
+ * Fraction.java
+ * Author: Nicholas Witmer
+ * Revision: 1, Nicholas Witmer
+ * Date: 10/4/2015
+ * Used to store fractions as an object with two ints representing the numerator and denominator.
+ * If the denominator is 0 an IllegalArgumentException is throw otherwise the GCD is found and
+ * the numerator and denominator are reduced and stored. Functionality for accessing the numerator
+ * and denominator, adding, multiplying, and comparing fraction objects is provided.
+ */
+
 package fraction;
 
 public class Fraction implements Comparable<Fraction>
@@ -14,13 +25,13 @@ public class Fraction implements Comparable<Fraction>
 		else
 		{
 			int gcd;
-			if(num < 0 && den < 0)
+			if(num < 0 && den < 0)//Convert to a positive fraction if both num and den are negative
 			{
 				gcd = getGCD(num, den);
 				this.num = Math.abs(num/gcd);
 				this.den = Math.abs(den/gcd);
 			}
-			else if(num >0 && den < 0)
+			else if(num >0 && den < 0)//Per test specifications reassign the negative to the numerator
 			{
 				gcd = getGCD(num, den);
 				this.num = (-1) * (num / gcd);

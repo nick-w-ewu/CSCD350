@@ -1,3 +1,10 @@
+/**
+ * FractionTest.java
+ * Author: Tom
+ * Date: 10/4/2015
+ * Provided unitTests for the assignment testing basic fraction object functionality
+ */
+
 package fraction;
 
 import static org.junit.Assert.*;

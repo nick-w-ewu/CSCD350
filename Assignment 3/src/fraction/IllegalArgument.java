@@ -1,3 +1,10 @@
+/**
+ * IllegalArgument.java
+ * Author: Tom
+ * Date: 10/4/2015
+ * Provided unitTests designed to test the handling of erroneous data in the Fraction object
+ */
+
 package fraction;
 
 import static org.junit.Assert.*;
